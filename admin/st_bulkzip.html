@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Sales and Use Tax Section Local Tax Lookup Tools : Administration : Bulk uploads</title>
+</head>
+
+<body>
+<p>
+    <table width="787" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="20" valign="top"><table width="527" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr bgcolor="#FFFFFF">
+            <td height="20" colspan="3" align="left">&nbsp;</td>
+          </tr>
+          <tr bgcolor="#FFFFFF">
+            <td colspan="3"><h2>Sales and Use Tax Section<br />
+              Local Tax Lookup Tools </h2></td>
+          </tr>
+          <tr bgcolor="#FFFFFF">
+            <td height="20">&nbsp;</td>
+          </tr>
+          <tr>
+            <td valign="top"><form action="Uploader.php" method="post" enctype="multipart/form-data">
+              <table width="537" border="0" cellspacing="2" cellpadding="2">
+                <tr>
+                  <td colspan="2" nowrap="nowrap">Lookup Excise Taxes for Multiple Addresses</td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="left"><label for="txtZip" class="rowitem1">File Import Format requires three separate fields. A single line address, city and zip. (For example for a CSV file: 100 E Main St, Little Rock, 72201)<br />
+                    Please don't include any headers.  </label></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#EEF0F7"><div align="left">Select file to upload</div></td>
+                  <td align="left" bgcolor="#EEF0F7"><input type="file" name="fileToUpload" id="fileToUpload" tabindex="1" /><br> Excel or CSV files only</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#EEF0F7"><div align="left">Select check box to enable debugging output</div></td>
+                  <td align="left" bgcolor="#EEF0F7"><input type="checkbox" name="viewresults" value="1" tabindex="2" /> </td>
+                </tr>								
+                <tr>
+                  <td><div align="left"></div></td>
+                  <td align="left"><input type="submit" value="Upload and Process File" name="submit" tabindex="3" /></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#EEF0F7"></td>
+                  <td align="left" bgcolor="#EEF0F7"></td>
+                </tr>
+              </table>
+            </form></td>
+            <td width="10">&nbsp;</td>
+          </tr>
+          <tr bgcolor="#FFFFFF">
+            <td colspan="3" align="center"><p>Excel Example:</p><img src="ExcelSnip2.png" alt="Excel Snip" /></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td width="400" height="30" valign="middle">&nbsp;</td>
+      </tr>
+  </table>
+</p>
+</body>
+</html>
